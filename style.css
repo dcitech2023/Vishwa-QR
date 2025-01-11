@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+.header{
+    background-color: #2870C1;
+    height: 100px;
+    width: 100%;
+}
+.header-name{
+    background-color: #DFEBF6;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-initial p{
+    /* font-size: 5.5rem; */
+    font-size: 120px;
+    color: #2870C1;
+}
+.name-container{
+    background-color: #F4F4F4;
+    padding: 16px;
+    color: #303030;
+}
+.name-container p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.name-container p:nth-child(2){
+    font-size: 0.9rem;
+}
+.name-container p:nth-child(3){
+    font-size: 0.9rem;
+}
+.name-container p{
+    padding-bottom: 5px;
+}
+
+
+.contact-container{
+    padding: 10px;
+}
+.number{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contact-icon{
+    background-color: #DFEBF6;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.contact-number{
+    font-size: 0.8rem;
+}
+.contact-number a{
+    text-decoration: none;
+    color: #303030;
+}
+.contact-number p{
+    color: #8E8E8E;
+}
+
+
+
+.address-icon{
+    background-color: #DFEBF6;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+.add-to-contact{
+    background-color: #2870C1;
+margin: 20px auto;
+    width: 200px;
+    padding: 13px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: rgba(98, 62, 9, 0.16) 0px 4px 4px;
+
+}
+.add-to-contact a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
